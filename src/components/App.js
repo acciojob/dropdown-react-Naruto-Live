@@ -180,7 +180,7 @@ function App() {
         ))}
       </select>
 
-      <div id="state-name">
+      <div id="state-title">
         {currentState.name}
       </div>
 
@@ -203,7 +203,7 @@ function App() {
         ))}
       </select>
 
-      <div id="city-name">
+      <div id="city-title">
         {currentCity.name}
       </div>
 
@@ -228,7 +228,7 @@ function App() {
         )}
       </select>
 
-      <div id="landmark-name">
+      <div id="landmark-title">
         {currentLandmark.name}
       </div>
 
