@@ -163,6 +163,10 @@ function App() {
     setSelectedLandmark(Number(e.target.value));
   };
 
+  const formatDescription = (description) => {
+  return description.replace(/['’]/g, "\\'");
+};
+
   return (
     <div id="main">
 
